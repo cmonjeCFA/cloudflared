@@ -1,3 +1,3 @@
-FROM arm64v8/ubuntu
-
-RUN ["/bin/bash", "-c", "uname -a"]
+FROM --platform=linux/arm64 torizon/debian:2-bullseye
+ 
+RUN apt update && apt install nano -y
