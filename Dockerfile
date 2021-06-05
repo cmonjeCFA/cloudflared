@@ -1,3 +1,3 @@
-FROM aarch64/ubuntu:latest
+FROM arm64v8/ubuntu
 
 RUN ["/bin/bash", "-c", "uname -a"]
