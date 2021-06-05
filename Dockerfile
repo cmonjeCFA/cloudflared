@@ -1,4 +1,4 @@
-FROM arm64v8/ubuntu
+FROM debian:latest
 
 SHELL ["/bin/bash", "-c"]
 
