@@ -1,4 +1,4 @@
-FROM --platform=linux/arm64 debian:latest
+FROM aarch64/ubuntu:latest
 
 SHELL ["/bin/bash", "-c"]
 
